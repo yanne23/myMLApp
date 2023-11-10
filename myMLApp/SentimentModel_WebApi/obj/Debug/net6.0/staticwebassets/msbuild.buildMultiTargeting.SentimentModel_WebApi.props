@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SentimentModel_WebApi.props" />
+</Project>

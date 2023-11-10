@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cUMXZ/EKhI1jh+GiFABwd2aLiPEVQ7vcOyucJ25d2cY=",
+  "Source": "SentimentModel_WebApi",
+  "BasePath": "_content/SentimentModel_WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

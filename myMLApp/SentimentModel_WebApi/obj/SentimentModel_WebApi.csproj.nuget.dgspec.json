@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\myMLApp\\myMLApp.csproj": {}
+    "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\SentimentModel_WebApi\\SentimentModel_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\myMLApp\\myMLApp.csproj": {
+    "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\SentimentModel_WebApi\\SentimentModel_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\myMLApp\\myMLApp.csproj",
-        "projectName": "myMLApp",
-        "projectPath": "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\myMLApp\\myMLApp.csproj",
+        "projectUniqueName": "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\SentimentModel_WebApi\\SentimentModel_WebApi.csproj",
+        "projectName": "SentimentModel_WebApi",
+        "projectPath": "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\SentimentModel_WebApi\\SentimentModel_WebApi.csproj",
         "packagesPath": "C:\\Users\\yanne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\myMLApp\\obj\\",
+        "outputPath": "C:\\Users\\yanne\\Documents\\GitHub\\myMLApp\\myMLApp\\SentimentModel_WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,7 +23,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -31,8 +31,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -43,12 +43,20 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.ML": {
+              "target": "Package",
+              "version": "[1.5.5, )"
+            },
             "Microsoft.ML": {
               "target": "Package",
               "version": "[1.7.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
@@ -63,6 +71,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
